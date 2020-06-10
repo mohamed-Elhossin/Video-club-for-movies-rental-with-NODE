@@ -1,0 +1,37 @@
+{
+  "name": "project-2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^2.6.9",
+    "ejs": "^2.6.2",
+    "express": "^4.16.4",
+    "express-async-errors": "^3.1.1",
+    "fawn": "^2.1.5",
+    "http-errors": "^1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.7",
+    "mongoose-sequence": "^5.2.2",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.1",
+    "path": "^0.12.7",
+    "winston": "^2.4.4",
+    "winston-mongodb": "^3.0.2"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
